@@ -170,11 +170,11 @@ export default function Home() {
           <hr />
           <div className="flex flex-col gap-3 w-1/3 p-4 border-l-2 border-gray-200 ">
             <div className="flex flex-row justify-around md:w-full w-screen h-auto">
-              <button class="flex justify-between h-10 text-red-500 border-2 items-center gap-1 bg-red-500/20 border-red-300 hover:bg-red-500 hover:text-white duration-300 md:px-14 px-8 focus:outline-none rounded-[8px] text-[14px]">
+              <button className="flex justify-between h-10 text-red-500 border-2 items-center gap-1 bg-red-500/20 border-red-300 hover:bg-red-500 hover:text-white duration-300 md:px-14 px-8 focus:outline-none rounded-[8px] text-[14px]">
                 <RiDeleteBin5Line />
                 <span>Delete job</span>
               </button>
-              <button class="flex mx-auto  h-10 text-white border-2 items-center gap-1 bg-red-500 border-red-300 hover:bg-red-500 px-14 focus:outline-none rounded-[8px] text-[14px]">
+              <button className="flex mx-auto  h-10 text-white border-2 items-center gap-1 bg-red-500 border-red-300 hover:bg-red-500 px-14 focus:outline-none rounded-[8px] text-[14px]">
                 <GoPencil />
                 <span>Edit job</span>
               </button>
